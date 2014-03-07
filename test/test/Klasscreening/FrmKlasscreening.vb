@@ -5,12 +5,12 @@ Public Class FrmKlasscreening
 
 
 
-    'Public leerkrachtenLijst As New List(Of Leerkracht)
-    'Public leerlingenLijst As New List(Of Leerling)
-    'Public klassenLijst As New List(Of Klas)
-    'Public klasNaamLijst As New Dictionary(Of Integer, String)
-    'Public klasLokalenLijst As New Dictionary(Of Integer, Lokaal)
-    'Public actiefLijst As New Dictionary(Of Integer, String)
+    Public leerkrachtenLijst As New List(Of Leerkracht)
+    Public leerlingenLijst As New List(Of Leerling)
+    Public klassenLijst As New List(Of Klas)
+    Public klasNaamLijst As New Dictionary(Of Integer, String)
+    Public klasLokalenLijst As New Dictionary(Of Integer, Lokaal)
+    Public actiefLijst As New Dictionary(Of Integer, String)
 
     'Public conn As OleDbConnection = New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" & "C:\SMDBTool\Database\KlasScreening.accdb" + ";Persist Security Info=False;")
 
@@ -375,4 +375,8 @@ Public Class FrmKlasscreening
     '        End If
     '    Next
     'End Sub
+
+    Private Sub btnLinq_Click(sender As System.Object, e As System.EventArgs) Handles btnLinq.Click
+
+    End Sub
 End Class
